@@ -1,0 +1,32 @@
+<div id="home" class="row">
+
+    <div width="300">
+        <label>Name</label><input ng-model="name" type="text">
+        <label>Surname</label><input ng-model="surname" type="text">
+        <button class="btn-red" ng-click="new()">New</button>
+        <button ng-click="update()">Update</button>
+    </div>
+
+    <div>
+        <label>ID</label><input ng-model="id" type="text">
+        <button ng-click="fetch()">Fetch</button>
+
+        <table>
+            <thead>
+            <th>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Surname</td>
+            </th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="person in persons">
+                <td></td>
+                <td>{{person.personId}}</td>
+                <td>{{person.name}}</td>
+                <td>{{person.surname}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
