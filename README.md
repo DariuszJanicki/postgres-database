@@ -5,11 +5,6 @@ TODO:
    - bootstrap
    - delete unnecessary content
 
- - Separate modules to
-   - domain
-   - api
-   - web
-   - parameters in maven
-   - flyway
-
+ - Parameters in maven
+ - Flyway
  - Wiki
