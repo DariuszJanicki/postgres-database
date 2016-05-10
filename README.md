@@ -1,2 +1,15 @@
 # postgres-database
-Example integration of PostgreSQL and Spring Boot
+
+TODO:
+ - Enhance web layer
+   - bootstrap
+   - delete unnecessary content
+
+ - Separate modules to
+   - domain
+   - api
+   - web
+   - parameters in maven
+   - flyway
+
+ - Wiki
